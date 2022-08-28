@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<section id="main">
+    <div class="game_box">
+        <h1>Number Guessing Game</h1>
+        <div class="img_box">
+            <img class="game_img" src="images/game_vector.png" alt="" width="80%" height="80%">
+            <img class="game_winner_img" src="images/winner.png" alt="" width="60%" height="90%">
+        </div>
+        <h2 class="player">First Player</h2>
+        <div class="player_one_box">
+            <input class="player_one_input" type="text" placeholder="Please Enter a Number">
+            <p class="player_one_err"></p>
+            <button class="player_one_btn">Start</button>
+        </div>
+        <div class="player_two_box">
+            <h3 class="chance_main">Chance remain: <span class="chance">5</span></h3>
+            <input class="player_two_input" type="text" placeholder="Guess the Number">
+            <p class="player_two_err"></p>
+            <button class="player_two_btn">Guess</button>
+            <button class="restart">Start again</button>
+        </div>
+    </div>
+</section>
+<script src="js/script.js"></script>
+</body>
+</html>
